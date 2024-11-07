@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    height: 100vh;
+    background-color: #4A764F;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    float: left;
+    font-size: 30px;
+    padding: 5px 20px 5px 20px;
+    position: relative;  
+    color: #4A764F;
+}
+
+.header{
+    justify-content: space-between;
+    display: flex;
+    background-color: #EDF1D6;
+    color: #4A764F;
+    padding: 10.3px 0;
+}
+
+.header .signin-register  {
+    text-decoration: none;
+    color: #EDF1D6;
+    padding: 5px 30px;
+    float: right;
+}
+
+.header .signin-register:hover {
+    color: #ef0707;
+}
+
+nav {
+    background-color: #91B082;
+}
+
+nav ul {
+    width: 100%; 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:space-between;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    color: #EDF1D6;
+    text-decoration: none;
+    padding: 10px 22px 10px 22px;
+}
+
+nav ul li a:hover {
+    color: #ef0707;
+}
+
+h2{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    color:#EDF1D6;
+    font-size: 35px;
+    margin-top: 45px;
+}
+
+
+.transparent-box {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    overflow: auto; 
+    transform: translate(-50%, -50%);
+    background-color: #91B082; 
+    width: 70%;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 20px; 
+    flex-wrap: wrap; 
+}
+
+/* Posts*/
+.posts{
+    margin-left: 15px; 
+    width: 90%;
+    /* border: 1px solid black; */
+}
+
+.post {
+    /* border: 1px solid red; */
+    background-color: gainsboro;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px; 
+    border-radius: 10px;
+}
+
+.post span{
+    font-weight: bold;
+}
+
+.post .date_time{
+    margin-right: 15px;
+    float: right;
+}
+
+.post .time{
+    font-weight: 400;
+}
+
+.post p{
+    margin-left: 15px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end; 
+    padding-bottom: 10px;
+    /* border: 1px solid red; */
+    
+}
+
+.approve {
+    padding: 7px 20px;
+    background-color: #91B082;
+    color: black;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+   
+}
+
+.approve:hover {
+    text-decoration: underline; 
+}
+
+
+

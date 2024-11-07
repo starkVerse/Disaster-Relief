@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    height: 100vh;
+    background-color: #EDF1D6;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    float: left;
+    font-size: 30px;
+    padding: 5px 20px 5px 20px;
+    position: relative;  
+    color: #EDF1D6;
+}
+.header{
+    justify-content: space-between;
+    display: flex;
+    background-color: #4A764F;
+    color: #fff;
+    padding: 10.3px 0;
+}
+.header .signin-register  {
+    text-decoration: none;
+    color: #EDF1D6;
+    padding: 5px 30px;
+    float: right;
+    margin-top: 5px;
+}
+.header .signin-register:hover {
+    color: #ef0707;
+}
+nav {
+    background-color: #91B082;
+}
+
+nav ul {
+    width: 100%;
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    
+    
+}
+
+nav ul li a {
+    display: block;
+    color: #EDF1D6;
+    text-decoration: none;
+    padding: 10px 22px 10px 22px;
+}
+
+nav ul li a:hover {
+    color: #ef0707;
+}
+#posts-container {
+    width: 80%;
+    margin: 70px auto 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Transparent background */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow-y: scroll; /* Add scrollbar */
+    max-height: 300px; /* Limit height for fixed scrollbar */
+}
+
+.post {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

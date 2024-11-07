@@ -1,0 +1,146 @@
+body {
+    font-family: "Inter";
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #4A764F;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.logo {
+    float: left;
+    font-size: 30px;
+    padding: 5px 20px 5px 20px;
+    position: relative;  
+    color: #4A764F;
+}
+
+.header{
+    justify-content: space-between;
+    display: flex;
+    background-color: #EDF1D6;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.signin-register a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    float: right;
+}
+
+.signin-register a:hover {
+    color: #ca0d0d;
+}
+
+nav {
+    background-color: #91B082;
+}
+
+nav ul {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content:space-between;
+}
+
+nav ul li {
+    display: inline-block;
+       
+}
+
+nav ul li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 22px 10px 22px;
+}
+
+nav ul li a:hover {
+    color: #ef0707;
+}
+
+/* register part */
+.registration-container {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px; }
+
+.registration-container input[type="text"]::placeholder,
+.registration-container input[type="email"]::placeholder,
+.registration-container input[type="password"]::placeholder{
+    text-align: center;
+}
+
+.registration-container input[type="text"],
+.registration-container input[type="email"],
+.registration-container input[type="password"],
+.registration-container button {
+    width: 600px; 
+    padding: 20px;
+    border: 1px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #D9D9D9;
+}
+
+.registration-container button {
+    width: 15%;
+    position: relative;
+    top: 0px;
+    padding: 10px 20px;
+    background-color: #4a6740;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.registration-container button:hover {
+    background-color: #354f2e;
+}
+
+.registration-container .checkboxes {
+    margin-top: 5px;
+}
+
+.registration-container .checkboxes label {
+    display: flex;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.registration-container .checkboxes input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.registration-container .checkboxes a {
+    color: inherit; /* Inherit color from parent */
+    text-decoration: none; /* Remove underline */
+}
+
+.registration-container .checkboxes a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/*transparent */
+.transparent-box {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.5); /* Transparent white */
+    width: 730px;
+    height: 480px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}

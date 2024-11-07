@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    height: 100vh;
+    background-color: #4A764F;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    float: left;
+    font-size: 30px;
+    padding: 5px 20px 5px 20px;
+    position: relative;  
+    color: #4A764F;
+}
+.header{
+    justify-content: space-between;
+    display: flex;
+    background-color: #EDF1D6;
+    color: #4A764F;
+    padding: 10.3px 0;
+}
+.header .signin-register  {
+    text-decoration: none;
+    color: #4A764F;
+    padding: 5px 30px;
+    float: right;
+}
+.header .signin-register:hover {
+    color: #ef0707;
+}
+nav {
+    background-color: #91B082;
+}
+
+nav ul {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:space-between;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    color: #EDF1D6;
+    text-decoration: none;
+    padding: 10px 22px 10px 22px;
+}
+
+nav ul li a:hover {
+    color: #ef0707;
+}
+.content {
+    padding: 20px; 
+}
+.content h2{
+    padding-left: 10%;
+    color: #FFFFFF;
+}
+.table-container {
+    margin: 0 auto;
+    width: 80%;
+    height: 400px;
+    overflow-y: auto;
+    background-color: #91B082;
+  }
+.table {
+    width: 100%; 
+    border-collapse: collapse;
+  }
+.table th{
+    padding: 10px;
+    border: 1px solid black;
+  }
+  .table td{
+    padding: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    vertical-align: center;
+  }
+
+.delete{
+    border: 1px solid red;
+    /* background-color: rgb(224, 45, 45); */
+    /* border-radius: 5px; */
+    text-decoration: none;
+    padding: 3px 4px;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+  }
+
+  .create{
+    text-decoration: none;
+    border: none;
+    position: absolute;
+    display: flex;
+    left: 50%;
+    transform: translate(-50%);
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    
+    background-color: #91B082;
+    color: #EDF1D6;
+    border-radius: 5px;
+  }
+
+  .create:hover{
+    background-color: #EDF1D6;
+    color: #4A764F;
+  }

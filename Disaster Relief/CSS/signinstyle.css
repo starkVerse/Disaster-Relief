@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    height: 100vh;
+    background-color: #EDF1D6;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    float: left;
+    font-size: 30px;
+    padding: 5px 20px 5px 20px;
+    /* position: relative;   */
+    color: #EDF1D6;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #4A764F;
+    color: #EDF1D6;
+    padding: 10.3px 0;
+}
+.signin-register a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    float: right;
+}
+.signin-register a:hover {
+    color: #ca0d0d;
+}
+nav {
+    background-color: #91B082;
+}
+
+nav ul {
+    width: 100%; 
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 0;
+    display: flex;
+    justify-content:space-between;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    color: #EDF1D6;
+    text-decoration: none;
+    padding: 10px 22px 10px 22px;
+}
+
+nav ul li a:hover {
+    color: #ef0707;
+}
+
+/* signin part */
+.signin-container {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px; }
+
+.signin-container input[type="email"]::placeholder,
+.signin-container input[type="password"]::placeholder {
+    text-align: center;
+}
+
+.signin-container input[type="email"],
+.signin-container input[type="password"],
+.signin-container button {
+    width: 600px; 
+    padding: 20px;
+    border: 1px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #D9D9D9;
+}
+
+.signin-container button {
+    width: 15%;
+    padding: 10px 20px;
+    background-color: #4a6740;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.signin-container button:hover {
+    background-color: #354f2e;
+}
+
+/*transparent */
+.transparent-box {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.5); /* Transparent white */
+    width: 750px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+/*register */
+.signin-container p {
+    margin-top: 15px; 
+}
+
+.signin-container a {
+    color: #4a6740; 
+    text-decoration: none;
+}
+
+.signin-container a:hover {
+    color: #354f2e; 
+    text-decoration: underline;
+}
+
+/*social icon */
+.social-icons {
+    text-align: center;
+    margin-top: -80px; /* Reduce the top margin */
+    margin-bottom: 10px; /* Add margin-bottom to create space between the sections */
+}
+
+.social-icons p {
+    margin-bottom: 10px;
+    color: black; /* Adjust color as needed */
+}
+
+.social-icons img {
+    width: 40px; /* Adjust width as needed */
+    margin: 0 10px; /* Adjust margin as needed */
+}
+
+.social-icons a {
+    text-decoration: none; /* Remove text decoration */
+}
+
+.social-icons p{
+    padding-top: 20px;
+}

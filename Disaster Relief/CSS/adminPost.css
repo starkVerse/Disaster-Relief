@@ -1,0 +1,67 @@
+body {
+    font-family: "Inter";
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #4A764F;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.logo {
+    float: left;
+    font-size: 30px;
+    padding: 5px 20px 5px 20px;
+    position: relative;  
+    color: #4A764F;
+}
+
+.header{
+    justify-content: space-between;
+    display: flex;
+    background-color: #EDF1D6;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.signin-register a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    float: right;
+}
+
+.signin-register a:hover {
+    color: #ca0d0d;
+}
+
+nav {
+    background-color: #91B082;
+}
+
+nav ul {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    justify-content:space-between;
+}
+
+nav ul li {
+    display: inline-block;
+       
+}
+
+nav ul li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 22px 10px 22px;
+}
+
+nav ul li a:hover {
+    color: #ef0707;
+}
+

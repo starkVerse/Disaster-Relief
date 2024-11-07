@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    height: 100vh;
+    background-color: #EDF1D6;
+    justify-content: center;
+    align-items: center;
+}
+   
+.logo{
+    float: left;
+    font-size: 30px;
+    padding: 5px 20px 5px 20px;
+    position: relative;  
+    color: #EDF1D6;
+}
+
+.header{
+    justify-content: space-between;
+    display: flex;
+    background-color: #4A764F;
+    color: #EDF1D6;
+    padding: 10.3px 0;
+}
+
+.header .signin-register{
+    text-decoration: none;
+    color: #EDF1D6;
+    padding: 5px 30px;
+    float: right;
+}
+
+.header .signin-register:hover{
+    color: #ef0707;
+}
+
+nav{
+    background-color: #91B082;
+}
+
+nav ul {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:space-between;
+}
+
+nav ul li {
+    display: inline-block;  
+}
+
+nav ul li a {
+    display: block;
+    color: #EDF1D6;
+    text-decoration: none;
+    padding: 10px 22px 10px 22px;
+}
+
+nav ul li a:hover {
+    color: #ef0707;
+}
+
+h2{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 20%;
+    /* border: 1px solid red; */
+    color: #4A764F;
+}
+
+
+.transparent-box {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    overflow: auto; 
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.5); 
+    width: 60%;
+    height: 50%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 20px; 
+    flex-wrap: wrap; 
+}
+
+/* Posts*/
+.posts{
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 90%;
+}
+
+.post {
+    margin-bottom: 10px;
+    background-color: #91B082;
+    margin-right: 20px; 
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.post span{
+    font-weight: bold;
+}
+
+.post .date_time{
+    margin-right: 15px;
+    float: right;
+}
+
+.post .time{
+    font-weight: 400;
+}
+
+.post p{
+    margin-left: 15px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end; 
+    padding-bottom: 10px;
+}
+
+.approve {
+    padding: 10px 20px;
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    color: black;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 19px; 
+}
+
+.approve:hover {
+    text-decoration: underline; 
+}
+
+
+button.approve {
+    margin-right: 10px; 
+}
+
